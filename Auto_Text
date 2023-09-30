@@ -1,1 +1,14 @@
 
+import pyautogui
+from time import sleep
+sleep(5)
+for i in range(0,2):
+    if i % 2 == 0 :
+         pyautogui.write('Siam er koliza koi ?',interval=0.1)
+         pyautogui.press('enter')
+    elif i % 3 == 0:
+     pyautogui.write('Sob mingle der ami ar Emon single roye gelam',interval=0.1)
+     pyautogui.press('enter')
+    else:
+     pyautogui.write('Sojib er Tisha koi?',interval=0.1)
+     pyautogui.press('enter')
